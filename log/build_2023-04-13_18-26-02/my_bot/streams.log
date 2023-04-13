@@ -1,0 +1,54 @@
+[0.017s] Invoking command in '/home/casper/Bot1/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/casper/Bot1/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/casper/Bot1/install/my_bot
+[0.238s] -- The C compiler identification is GNU 9.4.0
+[0.450s] -- The CXX compiler identification is GNU 9.4.0
+[0.458s] -- Check for working C compiler: /usr/bin/cc
+[0.521s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.523s] -- Detecting C compiler ABI info
+[0.583s] -- Detecting C compiler ABI info - done
+[0.594s] -- Detecting C compile features
+[0.595s] -- Detecting C compile features - done
+[0.598s] -- Check for working CXX compiler: /usr/bin/c++
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.668s] -- Detecting CXX compiler ABI info
+[0.738s] -- Detecting CXX compiler ABI info - done
+[0.750s] -- Detecting CXX compile features
+[0.751s] -- Detecting CXX compile features - done
+[0.755s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.778s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.778s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.954s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.987s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.060s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.062s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.063s] -- Added test 'lint_cmake' to check CMake code style
+[1.064s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.065s] -- Added test 'xmllint' to check XML markup files
+[1.068s] -- Configuring done
+[1.070s] -- Generating done
+[1.071s] -- Build files have been written to: /home/casper/Bot1/build/my_bot
+[1.076s] Invoked command in '/home/casper/Bot1/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/casper/Bot1/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/casper/Bot1/install/my_bot
+[1.079s] Invoking command in '/home/casper/Bot1/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/casper/Bot1/build/my_bot -- -j8 -l8
+[1.114s] Invoked command in '/home/casper/Bot1/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/casper/Bot1/build/my_bot -- -j8 -l8
+[1.143s] Invoking command in '/home/casper/Bot1/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/casper/Bot1/build/my_bot
+[1.151s] -- Install configuration: ""
+[1.151s] -- Execute custom install script
+[1.152s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/config/empty.yaml
+[1.160s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.168s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.177s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/worlds/empty.world
+[1.185s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.193s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.201s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.212s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.219s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/environment/path.sh
+[1.227s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/environment/path.dsv
+[1.236s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/local_setup.bash
+[1.244s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/local_setup.sh
+[1.252s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/local_setup.zsh
+[1.260s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/local_setup.dsv
+[1.268s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/package.dsv
+[1.277s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.285s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.293s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.300s] -- Symlinking: /home/casper/Bot1/install/my_bot/share/my_bot/package.xml
+[1.310s] Invoked command in '/home/casper/Bot1/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/casper/Bot1/build/my_bot
